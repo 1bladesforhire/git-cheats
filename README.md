@@ -5,19 +5,18 @@ Git  commands you actually need
 ```
 git branch -m <NEWBRANCHNAME> 
 ```
+#Merge and delete a branch once finished with local changes
 
-#Merge a branch into current branch
+0. Merge a branch into current branch
 ```
 git merge <BRANCHNAME>
 ```
-
-#Delete a local branch
+0. Delete a local branch
 ```
 git branch -d <BRANCHNAME>
 ```
 
-
-#Delete a remote branch
+0. Delete a remote branch
 ```
 git push <REMOTENAME> --delete <BRANCHNAME>
 ```
