@@ -20,7 +20,7 @@ Delete a remote branch
 ```
 git push <REMOTENAME> --delete <BRANCHNAME>
 ```
-Find changes over the history of a file
+#Find changes over the history of a file
 ```
 git log --follow -p -- file
 ```
