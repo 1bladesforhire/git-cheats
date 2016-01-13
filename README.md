@@ -24,3 +24,7 @@ git push <REMOTENAME> --delete <BRANCHNAME>
 ```
 git log --follow -p -- file
 ```
+#Find what files will be changed if you pull
+```
+git diff ...origin/master --name-only
+```
